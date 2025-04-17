@@ -1,0 +1,13 @@
+{
+  "name": "pi-calibration-button",
+  "version": "1.0.0",
+  "description": "A button plugin to trigger calibration via SSH on a Raspberry Pi.",
+  "budibase": {
+    "type": "component"
+  },
+  "metadata": {
+    "visibility": "public"
+  },
+  "main": "index.js",
+  "module": "index.js"
+}
