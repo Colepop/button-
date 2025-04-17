@@ -1,0 +1,1 @@
+// Compiled component JS - placeholder
