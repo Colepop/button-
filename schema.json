@@ -1,0 +1,29 @@
+{
+  "type": "automation",
+  "metadata": {
+    "name": "Pi Calibration Automation",
+    "description": "SSH into Raspberry Pi and run calibration script"
+  },
+  "schema": {
+    "name": "Run Calibration",
+    "tagline": "SSH to Pi and start calibrate.py",
+    "icon": "Terminal",
+    "description": "Connect to Raspberry Pi via SSH and run calibrate.py",
+    "type": "action",
+    "stepId": "run-calibration",
+    "inputs": {},
+    "schema": {
+      "inputs": {
+        "properties": {},
+        "required": []
+      },
+      "outputs": {
+        "properties": {
+          "success": { "type": "boolean", "title": "Success" },
+          "message": { "type": "string", "title": "Message" }
+        },
+        "required": ["success"]
+      }
+    }
+  }
+}
